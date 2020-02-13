@@ -3,14 +3,19 @@ package common;
 public class helper {
 
     public static boolean PrimeCheck(int num) {
-        if (num <= 2 || num % 2 == 0) {
-            return false;
+        if(num ==2 ){
+            return true;
         }
-
-        long topLimit = (int) Math.sqrt(num);
-        for (long i = 3; i < topLimit; i += 2) {
-            if (num % i == 0) {
+        else {
+            if (num <= 1 || num % 2 == 0) {
                 return false;
+            }
+
+            long topLimit = (int) Math.sqrt(num);
+            for (long i = 3; i <= topLimit; i += 2) {
+                if (num % i == 0) {
+                    return false;
+                }
             }
         }
         return true;

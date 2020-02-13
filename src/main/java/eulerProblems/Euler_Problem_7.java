@@ -16,6 +16,7 @@ public class Euler_Problem_7 {
                 counter++;
             }
         } while (counter != 10001);
+
         System.out.println(x);
     }
 
