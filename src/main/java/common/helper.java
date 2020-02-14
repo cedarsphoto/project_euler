@@ -1,6 +1,10 @@
 package common;
 
-public class helper {
+import java.util.Collection;
+import java.util.List;
+import java.util.TreeSet;
+
+public abstract class helper {
 
     public static boolean PrimeCheck(int num) {
         if(num ==2 ){
@@ -39,5 +43,43 @@ public class helper {
             }
             return primeArray;
         }
+
+     public static int FindDivisors(long num){
+         int i;
+         int divisorCount = 0;
+
+         for (i=1;i <= num; i++) {
+             if(num % i == 0) {
+                 divisorCount++;
+             }
+         }
+         return(divisorCount);
+     }
+
+     public static boolean EvenCheck(int num) {
+        if (num % 2 == 0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+     }
+
+    public static TreeSet PrimeSet(int num) {
+
+        TreeSet<Integer> t = new TreeSet<Integer>();
+        int i;
+        for (i=0; i < num; i++) {
+            if (PrimeCheck(i))
+            {
+                t.add(i);
+            }
+        }
+        return t;
+
     }
+}
+
+
+
 
