@@ -9,13 +9,13 @@ public class Euler_Problem_14 {
     public static void main(String[] args) {
         //Collatz Sequence -
 
-        int maxVal = 0;
-        int maxValx = 0;
-        int termCount = 1;
+        long maxVal = 0;
+        long maxValx = 0;
+        long termCount = 1;
         int x;//starting value
         HashMap<Integer,Integer> hmap = new HashMap<Integer, Integer>();
 
-        for(x = 2;x < 999999 ;x++) {
+        for(x = 2;x < 1000000 ;x++) {
             termCount = 0;
 //todo add some kind of Hashmap "cache" so when we learn that 10 gets to 1 in 7 hops we can save some calculations
             for (int i = x; i != 1; ) {

@@ -1,4 +1,4 @@
-package eulerProblems;
+/* package eulerProblems;
 
 import static common.helper.FindDivisors;
 
@@ -29,6 +29,9 @@ public class Euler_Problem_12 {
 
         System.out.println(result2);
     }
-*/
+
 
 }
+
+
+*/

@@ -1,5 +1,8 @@
 package common;
 
+import java.io.*;
+import java.math.BigInteger;
+import java.nio.charset.Charset;
 import java.util.Collection;
 import java.util.List;
 import java.util.TreeSet;
@@ -65,6 +68,15 @@ public abstract class helper {
         }
      }
 
+     public static BigInteger CalculateFactorial(long num) {
+         BigInteger result = BigInteger.ONE;
+
+         for (long factor = 2; factor <= num; factor++) {
+             result = result.multiply(BigInteger.valueOf(factor));
+         }
+         return result;
+     }
+
     public static TreeSet PrimeSet(int num) {
 
         TreeSet<Integer> t = new TreeSet<Integer>();
@@ -78,6 +90,14 @@ public abstract class helper {
         return t;
 
     }
+
+   /* public static BufferedReader HelperFileReader(String filepath) throws IOException {
+        String path = filepath;
+        BufferedReader reader = new BufferedReader(new FileReader(path));
+        // String currentLine = reader.readLine();
+        reader.close();
+    }*/
+
 }
 
 
