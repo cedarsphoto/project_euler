@@ -5,11 +5,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.Buffer;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
 import common.helper.*;
+
+import static common.helper.AlphabetValues;
 
 public class Euler_Problem_22 {
 
@@ -35,6 +38,34 @@ What is the total of all the name scores in the file?
         String cleanline = firstline.replaceAll("\"","");
         // splits the string into an array based on comma delimiting
         String[] names = cleanline.split(",");
+        String maxelement = "";
+        String element = "";
+        Arrays.sort(names);
+        int maxletterscore = 0;
+        int totalscore =0;
+        for (int j=0, n = names.length; j < n; j++) {
+            int letterscore = 0;
+
+
+            element = names[j];
+                for (int k=0, l=element.length();k < l; k++) {
+
+                    letterscore = letterscore + AlphabetValues(element.charAt(k));
+                }
+                letterscore = letterscore * (j+1);
+
+                if (letterscore > maxletterscore) {
+                 //   maxletterscore = letterscore;
+                  //  maxelement = element;
+                    totalscore = totalscore+letterscore;
+                }
+
+        }
+        System.out.println(maxletterscore);
+        System.out.println(maxelement);
+        System.out.println(totalscore);
+
+   /* Old attempt to use treeset needlessly complicating things
         // Creates new treeset to read each element of the string array into, to get the sorted list
         TreeSet<String> treeSet = new TreeSet<String>();
 
@@ -43,12 +74,23 @@ What is the total of all the name scores in the file?
 
         // Calculate value of each name.
         // calculate
-
+        int maxnamescore =0;
+        String maxname;
                     for (String value : treeSet) {
+                        int namescore = 0;
+                        for (int i=0; i < value.length(); i++) {
 
+                            namescore = namescore + AlphabetValues(value.charAt(i));
+                        }
+                        namescore = namescore *
+                                if (namescore > maxnamescore) {
+                                    maxnamescore = namescore
+
+                                }
+                        }
                     }
 
-
+*/
             }
 
 

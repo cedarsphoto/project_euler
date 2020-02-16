@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7ae309b-7e58-4c7a-b80b-d07eed1ecdbe" name="Default" comment="Fixed problem 7">
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/Problem13_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/p022_names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java" afterDir="false" />
+    <list default="true" id="a7ae309b-7e58-4c7a-b80b-d07eed1ecdbe" name="Default" comment="Many new problems started but not finished, working on 22 currently">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="255">
               <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="323">
               <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,11 +48,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="41">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1376#1384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="527">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -112,10 +102,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="97" column="23" selection-start-line="94" selection-start-column="7" selection-end-line="97" selection-end-column="23" />
+            <state relative-caret-position="381">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2546#2563#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,12 +225,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581813764953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581854784127" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -348,14 +339,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581720549957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Many new problems started but not finished, working on 22 currently">
+      <created>1581813863093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581813863094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2974068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30226904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,8 +361,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3249453" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42231947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3249453" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42231947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -416,7 +413,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed problems 1 &amp; 2" />
     <MESSAGE value="Fixed problem 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed problem 7" />
+    <MESSAGE value="Many new problems started but not finished, working on 22 currently" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many new problems started but not finished, working on 22 currently" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,15 +600,69 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
-          <line>36</line>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="51" />
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
-          <line>41</line>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/common/helper.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/common/helper.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/common/helper.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -748,16 +800,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/PoorMansFactorial.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_18.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -765,15 +812,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/PoorMansFactorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="22" />
           <folding>
-            <element signature="e#0#4478#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/p022_names.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_8.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,48 +847,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_18.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="97" column="23" selection-start-line="94" selection-start-column="7" selection-end-line="97" selection-end-column="23" />
+        <state relative-caret-position="381">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2546#2563#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/p022_names.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eulerProblems/Euler_Problem_22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="41">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1376#1384#0" expanded="true" />
           </folding>
         </state>
       </provider>
